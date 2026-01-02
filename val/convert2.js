@@ -15,7 +15,7 @@ function convertNew (date){
         return "Rentang hari atau bulan tidak valid";
     }
 
-    if( month = 2 || month || 4 month || 6 || month || 8 || month || 10 month || 12) {
+    if (month === 4 || month === 6 || month === 9|| month === 11) {
         return "maksimal tanggal adalah 30"
     }
     
@@ -25,3 +25,4 @@ function convertNew (date){
 
 
 module.exports = convertNew
+
