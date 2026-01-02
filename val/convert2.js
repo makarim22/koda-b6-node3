@@ -14,8 +14,14 @@ function convertNew (date){
     if (day < 1 || day > 31 || month < 1 || month > 12) {
         return "Rentang hari atau bulan tidak valid";
     }
+
+    if( month = 2 || month || 4 month || 6 || month || 8 || month || 10 month || 12) {
+        return "maksimal tanggal adalah 30"
+    }
+    
     return `${day}/${month}/${year}`
 }
+
 
 
 module.exports = convertNew
