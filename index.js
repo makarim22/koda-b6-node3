@@ -8,9 +8,9 @@ const rl = readline.createInterface({
 });
 
 rl.question('Masukkan tanggal: ', (tanggal) => {
-    stringTanggal = tanggal.toString();
-    console.log(converter2(stringTanggal));
+    console.log(converter2(tanggal));
     rl.close();
 });
+
 
 
